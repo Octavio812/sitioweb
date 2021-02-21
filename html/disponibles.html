@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en-MX">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/estilos.css"/>
+    <script src="../js/script.js"></script>
+    <title>Dispositivo</title>
+</head>
+<body>
+    <div class="agrupar">
+        <header id="principal" >
+            <h1 id="header1"><img id="imagen1" src="./Imagenes/disposi.jpg"></h1>   
+        </header>
+        <nav id="menu1">
+            <center><ul>
+                <li><a href="inex.html">Inicio</a></li>
+                <li><a href="Qsomos.html">Quienes somos </a></li>
+                <li><a href="disponibles.html">Dispositivos </a></li>
+                <li class="right"><a href="contacto.html">Contacto</a></li>
+            </ul></center>
+        </nav>
+        <section id="seccion">
+        <article id="seccion1">
+            <center>
+            <div>
+                <form name="formDispositivos" id="formDispositivos" method="POST" action="#">
+            <div>
+            <h6><font>ID Dispositivo:</font></h6>
+                <textarea type="textT1" id="clvDis" minlength="1" maxlength="5" placeholder="Ingresa la clave" required onchange="validarclave()" ></textarea>
+                <div class="fila">
+                    <div class="collabel"></div>
+                    <div class="col-input">
+                        <p id="respclave"></p>
+                    </div>
+                </div>
+            </div>
+            <div>
+            <h6><font>Categor&iacute;a:</font></h6>
+                <select id="NAA" name="idCategoria" onchange="validarCat()">
+                    <option value="0">Nombre del dispositivo:</option>
+                    <option value="1">Dispositivo m&oacute;vil</option>
+                    <option value="2">Laptop</option>
+                    <option value="3">PC</option>
+                    <option value="4">Tablet</option>
+                    <option value="6">Relog digital</option>
+                </select>
+                <div class="fila">
+                    <div class="collabel"></div>
+                    <div class="col-input">
+                        <p id="respcat"></p>
+                    </div>
+            </div>
+            
+            <div>
+             <h6><font>Nombre de dispositivo:</font></h6>
+            </div>
+            <div>
+                <textarea type="textT1" id="nomDisp" minlength="1" maxlength="20" placeholder="Ingresa el nombre del dispositivo" required onchange="validarNomd()"></textarea>
+                <div class="fila">
+                    <div class="collabel"></div>
+                    <div class="col-input">
+                        <p id="respnom"></p>
+                    </div>
+            </div>
+            </div>
+            <div>
+            <h6><font>Descripción:</font></h6>
+                <textarea type= "text2" id="diIP" minlenght="3" maxlenght="20" placeholder="Describe tu dispositivo" required onchange="validardes()"></textarea>
+                <div class="fila">
+                    <div class="collabel"></div>
+                    <div class="col-input">
+                        <p id="respdes"></p>
+                    </div>
+            </div>
+            </div>
+            <div>
+                <div>
+                    <label> <h6><font>Ip asignada:</font></h6></label>
+                <div>
+                    <input   type="text3" name="192" minlength="1" maxlength="3"  placeholder="192" required onchange="validarip()" >●
+                    <input  type="text3" name="160" minlength="1" maxlength="3"  placeholder="168" required onchange="validarip()">●
+                    <input type="text3" name="0" minlength="1" maxlength="3" placeholder=" 1" required onchange="validarip()">●
+                    <input id="ipasig" type="text3" name="1" minlength="1" maxlength="3" placeholder="1" required onchange="validarip()">
+                    <div class="fila">
+                        <div class="collabel"></div>
+                        <div class="col-input">
+                            <p id="respip"></p>
+                        </div>
+                </div>
+                </div>
+               <div>
+                <label> <h6><font>Número de serie:</font></h6></label>
+                    <div>
+                        <input type="text3" name="G1" minlength="1" maxlength="2" placeholder="G1" required >
+                        <input type="text3" name="01" minlength="1" maxlength="2" placeholder="01" required >
+                        <input type="text3" name="LP" minlength="1" maxlength="2" placeholder= "LP" required >
+                        <input type="text3" name="E1" minlength="1" maxlength="2" placeholder="E1" required >
+                        <input id="ser15" type="text3" name="36" minlength="1" maxlength="2" placeholder="36" required onchange="validarserie()" >
+                        <div class="fila">
+                            <div class="collabel"></div>
+                            <div class="col-input">
+                                <p id="resser"></p>
+                            </div>
+                    </div>
+                    </div>
+                <div>
+                <label><h6><font>Estado:</font> </h6></label>
+                <select id="Estado" name="Estado" placeholder="Estado" required onchange="validarEstado()">
+                    <option value="0">En que estado se encuentra su dispositivo</option>
+                    <option value="1">Está Activo</option>
+                    <option value="2">Está Desactivdo</option>
+                    </select>
+                    <div class="fila">
+                        <div class="collabel"></div>
+                        <div class="col-input">
+                            <p id="respestado"></p>
+                        </div>
+                </div>
+            </div>
+            <div>
+            <input type="submit" value="Almacenar" onclick="mensajes()">
+            <input type="reset" value="Cancelar">
+            </div>
+            <p id="respuesta"></p>
+            <table>
+                <tr>
+                <th>ID Dispositivo</th><!--filaas-->
+                <th>Categor&iacute;a</th>
+                <th>Descripci&oacute;n</th>
+                <th>Dirección IP</th>
+                <th>Serie</th>
+                <th>Status</th>
+                </tr>
+                <tr>
+                <td>01</td>
+                <td>Dispositivo móvil</td>
+                <td>Samsung s9,memoria de 500 GB</td>
+                <td>192.168.25.04</td>
+                <td>G1:01:LP:E1:36</td>
+                <td>Activo</td>
+                </tr>
+                <tr>
+                <td>02</td>
+                <td>Telefono</td>
+                <td>Alcatel 1S 3GB RAM</td>
+                <td>192.15.82.2</td>
+                <td>F2:90:FG:T10:20</td>
+                <td>Inactivo</td>
+                </tr>
+                <tr>
+                    <td>03</td>
+                    <td>Pantalla</td>
+                    <td> LSD Samsung 52'' Color Vintage</td>
+                    <td>190.16.45.70</td>
+                    <td>G1:01:LP:E1:36</td>
+                    <td>Activo</td>
+                    </tr>
+            </table>
+               </div>
+                </div>
+                </div>
+            </div>
+                </form>  
+            </div>
+        </center>
+   </article>
+</section>
+</div>
+</body>
+</html>

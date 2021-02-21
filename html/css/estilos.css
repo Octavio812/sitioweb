@@ -1,0 +1,456 @@
+*{
+    margin:0px;
+    padding: 0px;
+
+}
+header,section,footer,aside,nav,article,hgroup{
+    display: block;
+    color: none;
+}
+div.agrupar{
+    width: 1200px;
+    height: 410 px;
+    margin: 15px center;
+    text-align: none;
+}
+body{
+    background-color: #000E17;
+}
+/*PAGINA PRINCIPAL*/
+#principal{
+    display: round;
+    width: 1200px;
+    height: 410px;
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+}
+#imagen1{
+    display: round;
+    width: 1200px;
+    height: 410px;
+    margin: -10px;
+    padding: -10px;
+    text-align: center;
+    border-radius: 20px 20px 20px 20px;
+    width: 1200px;
+    align-content: center;
+    padding: 5px;
+}
+#imagen2{
+    width: 560px;
+    height: 315px;
+    border-radius: 60px 60px 60px 60px;
+    align-content: center;
+    padding: 40 px;
+}
+#menu1 {
+    background: #719cfe;;
+    padding: 20px;
+    width: 1000px;
+    height: 410 px;
+    margin: 20px ;
+    border-radius: 20px 20px 20px 20px;
+    width: 1200px;
+    align-content: center;
+    padding: 5px;
+}
+ li{
+    list-style: none;
+    display: inline-block;
+    font: bold 17px sans-serif;
+    padding: 10px;
+ }
+ul li.derechat{
+    float: right;
+}
+li a{
+    display: block;
+    color: #f6f7fa;
+    text-align: center;
+    padding: 14xp 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active){
+    background-color:#a9c1f9;
+}
+li a:hover:not(.active){
+    background-color: #a9c1f9;
+}
+#seccion{
+    float: center;
+    width: 660px;
+    margin: 20px;
+    border: none;
+    font: normal 17px sans-serif;
+    padding: 60px;
+}
+#seccion1{
+    float: center;
+    width: 660px;
+    margin: 20px;
+    border: none;
+    font: normal 17px sans-serif;
+    padding: 60px;
+}
+h2{
+    font: bold 40px Lora,serif ;
+    color: #71a5fe;
+}
+h3{
+    font: bold 40px Lora,serif ;
+    color: #71a5fe;  
+}
+h4{
+    font: bold 30px Dosis,sans-serif ;
+    color: #ffffff;
+}
+article{
+    background: #FFFFFF;
+    border: none;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-bottom: 20px;
+    text-align: justify;
+    border-radius: 60px 60px 60px 60px;
+    width: 1000px;
+    align-content: center;
+    padding: 40px;
+}
+footer{
+    background-color: #ff7f62;
+    border-radius: 80px 1px 80px 1px;
+    align-content: center;
+    width: 1000px;
+    padding: 30px;
+    font: bold 20px Dosis,sans-serif;
+}
+#pie{
+    padding: 20px;
+    border-top: none;
+    clear: both;
+    background:#ff7f62;
+    padding: 30px;
+}
+/*termina el principal*/
+/*Dispositivos*/
+#seccion1{
+    background: #c8ada2;
+    border: none;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-bottom: 20px;
+    text-align: justify;
+    border-radius: 80px 10px 80px 10px;
+    width: 1000px;
+    align-content: center;
+    padding: 40px;
+}
+
+h6{
+    text-decoration-color: #000000;
+    font:bold 20px Lora,serif;
+    list-style: none;
+    text-align: justify;
+}
+#NAA{
+    width: 97%;
+    padding: 10px;
+    border: 2px solid #39810f;
+    border-radius: 20px;
+    resize: vertical;
+}
+#clvDis{
+    width: 97%;
+    padding: 10px;
+    border:2px solid#45a840;
+    border-radius: 20px;
+    resize: vertical;
+    align-content: center;
+}
+#nomDisp{
+    width: 97%;
+    padding: 10px;
+    border:2px solid#45a840;
+    border-radius: 20px;
+    resize: vertical;
+    align-content: center;
+}
+#diIP{
+    width: 97%;
+    padding: 10px;
+    border:2px solid#45a840;
+    border-radius: 20px;
+    resize: vertical;
+    align-content: center;
+}
+#ipasig{
+    width: 97%;
+    padding: 10px;
+    border:2px solid#45a840;
+    border-radius: 20px;
+    resize: vertical;
+    align-content: center;
+}
+#ser15{
+    width: 97%;
+    padding: 10px;
+    border:2px solid#45a840;
+    border-radius: 20px;
+    resize: vertical;
+    align-content: center;
+}
+#numConx{
+    width: 97%;
+    padding: 10px;
+    border:2px solid#45a840;
+    border-radius: 20px;
+    resize: vertical;
+    align-content: center;
+
+}
+#Estado{
+    width: 97%;
+    padding: 10px;
+    border:2px solid#45a840;
+    border-radius: 20px;
+    resize: vertical;
+    align-content: center;
+}
+input[type="submit"]:hover{
+    width: 30%;
+    background-color: #45a840;
+    display: inline-block;
+    font: 12px,verdana, arial;
+    text-align: center;
+    font-size: 14px;
+    padding: 12px, 24px;
+    border-radius: 20px 20px 20px 20px;
+}
+input[type="reset"]:hover{
+background-color: darkgoldenrod;
+display: inline-block;
+    font: 12px,verdana, arial;
+    text-align: center;
+    font-size: 14px;
+    padding: 12px, 24px;
+    border-radius: 20px 20px 20px 20px;
+}
+table{
+        width:30%;
+        border: none;
+        border-spacing: 0;
+        padding: 5px ;
+        border-radius: 20px;
+}
+th,td,tr{
+        text-align: center;
+        padding: 3px;
+        font:18px verdana italic;
+        color: ivory;
+        border: none;
+}
+tr{
+    border-radius: 20px;  
+}
+td{
+    color: honeydew;
+}
+tr:nth-child(even){
+    background-color: #B3969D;
+}
+/*termina el de dispositivis */
+div.cRegistro{
+    background-color: #ffffff;
+    border: none;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 80px 10px 80px 10px;
+    width: 500px;
+    align-content: center;
+    padding: 100px;
+}
+#NAA1{
+    width: 30%;
+    padding: 10px;
+    border: 2px solid #6b8cda;
+    border-radius: 20px;
+    resize: vertical;
+}
+input[type="email"], select,textarea{
+    width: 85%;
+    padding: 10px;
+    border: 2px solid #6b8cda;
+    border-radius: 20px;
+    resize: vertical;
+}
+input[type="text1"], select,textarea{
+    width: 85%;
+    padding: 10px;
+    border: 2px solid #6b8cda;
+    border-radius: 20px;
+    resize: vertical;
+}
+input[type="textt2"], select,textarea{
+    width: 85%;
+    padding: 10px;
+    border: 2px solid #6b8cda;
+    border-radius: 20px;
+    resize: vertical;
+}
+input[type="tel"], select,textarea{
+    width: 57%;
+    padding: 10px;
+    border: 2px solid #6b8cda;
+    border-radius: 20px;
+    resize: vertical;
+    /*terminaa*/
+    /*registro*/
+}
+div.cCrear{
+    background: #C2A6A5;
+    border: none;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-bottom: 20px;
+    text-align: justify;
+    border-radius: 50px 25px 50px 25px;
+    width: 800px;
+    align-content: center;
+    padding: 40px;
+}
+#NAAA1{
+    width: 90%;
+    padding: 10px;
+    border: 2px solid #ff7f62;
+    border-radius: 20px;
+    resize: vertical;
+}
+input[type="nombre"],select {
+    width: 40%;
+    padding: 10px;
+    border: 2px solid #ff7f62;
+    border-radius: 20px;
+    resize: vertical;
+}
+input[type="Apellido"],select{
+    width: 40%;
+    padding: 10px;
+    border: 2px solid #ff7f62;
+    border-radius: 20px;
+    resize: vertical;
+}
+input[type="correo"],select {
+    width: 90%;
+    padding: 10px;
+    border: 2px solid #ff7f62;
+    border-radius: 20px;
+    resize: vertical;
+}
+input[type="password"],select,textarea {
+    width: 40%;
+    padding: 10px;
+    border: 2px solid #ff7f62;
+    border-radius: 20px;
+    resize: vertical;
+}
+input[type="date"],select{
+    width: 40%;
+    padding: 10px;
+    border: 2px solid #ff7f62;
+    border-radius: 20px;
+    resize: vertical;
+}
+/*termina registro*/
+/*quienes somos*/
+.active{
+    background-color: #ff7f62;
+
+}div.encabezado {
+    background-image: url("../Imagenes/quien.jpg");
+    width: 1330px;
+    height: 410px;
+    margin: -10px;
+    padding: -10px;
+    text-align: initial;
+    border-radius: 20px 20px 20px 20px;
+    width: 1330px;
+    align-content: initial;
+    padding: 5px;
+    display: round;
+    margin-left:40px;
+}
+
+div.arriba{
+    background-color:#9999CC;
+    width: 1200px;
+    height: 300px;
+    margin-left: 100px;
+    margin-top: -100px;
+    border-radius: 20px 20px 20px 20px;
+}
+#imagen3{
+    width: 250px;
+    height: 250px;
+    margin-top: 10px;
+    margin-left: 40px;
+    border-radius: 20px 20px 20px 20px;
+}
+div.abajo001{
+    background-color: #ffffff;
+    width: 900px;
+    height: 300px;
+    margin-left: 100px;
+    margin-top: 25px;
+    border-radius: 20px 20px 20px 20px;
+    padding: 5px;
+
+}
+div.derecha001{
+    width: 270px;
+    height: 300px;
+    margin-left: 1030px;
+    margin-top: -310px;
+    border-radius: 20px 20px 20px 20px;
+}
+div.abajo00{
+    background-color:#ffffff;
+    width: 900px;
+    height: 300px;
+    margin-left: 100px;
+    margin-top: 25px;
+    border-radius: 20px 20px 20px 20px;
+    padding: 5px;
+}
+div.derecha{
+    width: 270px;
+    height: 300px;
+    margin-left: 1030px;
+    margin-top: -310px;
+    border-radius: 20px 20px 20px 20px;
+    
+}
+#imagen4{
+    width: 200px;
+    height: 300px;
+    text-align: center;
+}
+#imagen5{
+    width: 200px;
+    height: 300px;
+    text-align: center;
+}
+div{
+    border: none;
+    margin: 20px;
+}
+form.contacto{
+    background-color: darksalmon;
+}
+#registro1{
+    
+    border: none;
+    background-color: #ad5e78;
+}
